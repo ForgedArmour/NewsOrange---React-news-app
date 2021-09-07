@@ -1,25 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import React,{useState} from 'react'
+import Navbar from './Components/Navbar'
+import News from './Components/News'
+import Sidebar from './Components/Sidebar'
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
 
-function App() {
+} from "react-router-dom";
+import LoadingBar from 'react-top-loading-bar'
+
+export default function App() {
+const [bg,setBg] = useState("def");
+const [progress,setProgress] = useState(0);
+const apiKey = process.env.REACT_APP_NEWS_API;
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+    <Router>
+        <Navbar />
+        <LoadingBar
+          color='#f11946'
+          progress={progress}
+        />
+        <Sidebar bg={bg} setBg={setBg} />
+        <Switch>
+          <Route exact path="/"><News setProgress={setProgress} key="general" catagory={"general"} apiKey={apiKey} /></Route>
+          <Route exact path="/technology"><News setProgress={setProgress} key="technology" catagory={"technology"} apiKey={apiKey} /></Route>
+          <Route exact path="/science"><News setProgress={setProgress} key="science" catagory={"science"} apiKey={apiKey} /></Route>
+          <Route exact path="/sports"><News setProgress={setProgress} key="sports" catagory={"sports"} apiKey={apiKey} /></Route>
+          <Route exact path="/business"><News setProgress={setProgress} key="business" catagory={"business"} apiKey={apiKey}  /></Route>
+        </Switch>
+    </Router>
+    </>
+  )
 }
-
-export default App;

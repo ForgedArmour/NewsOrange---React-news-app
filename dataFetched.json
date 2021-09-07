@@ -1,0 +1,54 @@
+[
+    {
+        "source": {
+            "id": "associated-press",
+            "name": "Associated Press"
+        },
+        "author": "Predrag Milic",
+        "title": "Police clash with opponents of Serbian church in Montenegro - Associated Press",
+        "description": "CETINJE, Montenegro (AP) — Riot police used tear gas against protesters who fired gunshots in the air and hurled bottles and stones early Sunday in Montenegro before and during an inauguration of the new head of the Serbian Orthodox Church in the country.",
+        "url": "https://apnews.com/article/europe-religion-serbia-montenegro-6fb81571becf0a9abbb10d1e890702c5",
+        "urlToImage": "https://storage.googleapis.com/afs-prod/media/ba2c7c565012479ea539618a6a6f95fc/3000.jpeg",
+        "publishedAt": "2021-09-05T14:05:11Z",
+        "content": "CETINJE, Montenegro (AP) Riot police used tear gas against protesters who fired gunshots in the air and hurled bottles and stones early Sunday in Montenegro before and during an inauguration of the n… [+4819 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "TMZ"
+        },
+        "author": "TMZ Staff",
+        "title": "Girls Aloud Singer Sarah Harding Dead at 39 from Breast Cancer - TMZ",
+        "description": "Sarah Harding, a member of Girls Aloud, has died.",
+        "url": "https://www.tmz.com/2021/09/05/sarah-harding-dead-dies-girls-aloud-breast-cancer/",
+        "urlToImage": "https://imagez.tmz.com/image/6a/16by9/2021/09/05/6a3523aec59f4612a4d26b92d1b52dfc_xl.jpg",
+        "publishedAt": "2021-09-05T13:43:00Z",
+        "content": "Sarah Harding, a member of Girls Aloud, has died.\r\nSarah had been battling breast cancer and lost her fight Sunday.\r\nSarah's mom wrote, \"It's with deep heartbreak that today I'm sharing the news that… [+1344 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "BBC News"
+        },
+        "author": "https://www.facebook.com/bbcnews",
+        "title": "Rush to contain large oil spill in Gulf of Mexico after Storm Ida - BBC News",
+        "description": "Clean-up crews and the US Coast Guard are trying to locate the source of a miles-long slick.",
+        "url": "https://www.bbc.com/news/world-us-canada-58446271",
+        "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/26B6/production/_120401990_oilrigs.jpg",
+        "publishedAt": "2021-09-05T13:32:05Z",
+        "content": "image captionOil rigs pictured in the Gulf of Mexico after Hurricane Ida made landfall in Louisiana (file picture)\r\nClean-up crews and the US Coast Guard are trying to locate the source of an oil spi… [+1539 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "CNBC"
+        },
+        "author": "Kif Leswing",
+        "title": "Apple's strategy to fight off antitrust regulators: Fix the App Store one rule at a time - CNBC",
+        "description": "But while the concessions can seem like a shift in Apple's approach to App Store policy, they are a clear continuation of Apple's existing strategy.",
+        "url": "https://www.cnbc.com/2021/09/05/history-of-apple-giving-ground-on-app-store-rules.html",
+        "urlToImage": "https://image.cnbcfm.com/api/v1/image/106886658-1621611687673-gettyimages-1233025079-APPLE_EPIC_TRIAL.jpeg?v=1621611750",
+        "publishedAt": "2021-09-05T12:42:16Z",
+        "content": "In the past few weeks, Apple has madeseveralchanges to its App Store rules, allowing a larger number of companies to access a lower commission rate or evade Apple's mandatory 15% to 30% cut entirely.… [+10049 chars]"
+    }
+]

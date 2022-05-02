@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import './News.css'
 import NewsItem from './NewsItem'
-import Spinner from './Spinner';
+import Spinner from '../Spinner/Spinner';
 import InfiniteScroll from "react-infinite-scroll-component";
 
 export default function News(props) {
@@ -71,9 +71,7 @@ export default function News(props) {
                             return <NewsItem key={ele.url} title={ele.title} desc={ele.description} imgUrl={ele.urlToImage} url={ele.url} author={ele.author} date={ele.publishedAt} />
                     })}
                     </div>
-                    </InfiniteScroll>
-
-                
+                    </InfiniteScroll>             
         </div>
             
         </>

@@ -1,7 +1,7 @@
 import React,{useState} from 'react'
-import Navbar from './Components/Navbar'
-import News from './Components/News'
-import Sidebar from './Components/Sidebar'
+import Navbar from './Components/Navbar/Navbar'
+import News from './Components/News/News'
+import Sidebar from './Components/Sidebar/Sidebar'
 import {
   BrowserRouter as Router,
   Switch,

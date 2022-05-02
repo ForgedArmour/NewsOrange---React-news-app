@@ -3,6 +3,8 @@
     flex-wrap: wrap;
     justify-content: center;
     padding: 3%;
+    gap: 10px;
+
 }
 .buttons{
     display: flex;

@@ -16,11 +16,14 @@ nav{
     top: 0;
     background: #1C1B1A;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
-    padding: 10px 2%;
+    padding: 13px 2%;
     justify-content: space-between;
     color: rgb(0, 0, 0);
     flex-wrap: wrap;
 
+}
+.navbar_dark .left-content{
+    margin-left: 1rem;
 }
 
 .Links a{
@@ -52,16 +55,47 @@ nav{
     padding: 0.5em 1em ;
     background: #1471DF;
 }
+.short_h1{
+    display: none;
+    width: 30px;
+}
+.navbar_dark .left-content .menu-bar{
+    display: none;
+    margin-right: 20px;
+    font-size: 1.2rem;
+}
+.navbar_dark .left-content{
+    display: flex;
+    align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .navbar_dark .left-content h1{
+        font-size: 1.3rem;
+    }
+
+}
     @media only screen and (max-width: 800px) {
-        nav{
-            flex-direction: column;
-            align-items: center;
-        }
-        nav .Links{
-            margin: 3% 0;
-        }
+
         nav .right-content{
             margin: 1% 0;
             
         }
+        .navbar_dark .left-content .menu-bar{
+            display: block;
+        }
+    }
+    @media only screen and (max-width: 500px) {
+        .navbar_dark .Links .nav-link li a{
+            font-size: 0.93rem;
+        }
+        .short_h1{
+            display: block;
+        }
+        .long_h1{
+            display: none;
+        }
+
+
     }
